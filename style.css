@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    background-image: url(codioful-formerly-gradienta-n2XqPm7Bqhk-unsplash.jpg);
+    background-size: cover;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.apply-box{
+    max-width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-image: url(magicpattern-oPH_5xuMgQw-unsplash.jpg);
+    background-size: cover;
+}
+
+.title{
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: #555555;
+}
+
+.form-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1rem;
+    color: #444444;
+    margin-bottom: 8px;
+}
+
+input,select,textarea{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-size: 1rem;
+    color: #333333;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,select:focus,textarea:focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+button{
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
